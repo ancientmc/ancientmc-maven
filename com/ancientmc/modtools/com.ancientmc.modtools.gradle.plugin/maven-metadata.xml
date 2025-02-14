@@ -3,8 +3,8 @@
   <groupId>com.ancientmc.modtools</groupId>
   <artifactId>com.ancientmc.modtools.gradle.plugin</artifactId>
   <versioning>
-    <latest>0.2.0.20250130.205401-BETA</latest>
-    <release>0.2.0.20250130.205401-BETA</release>
+    <latest>0.2.1.20250214.162633-BETA</latest>
+    <release>0.2.1.20250214.162633-BETA</release>
     <versions>
       <version>0.2.0-beta-dev</version>
       <version>0.2.0-beta-20240618.170240</version>
@@ -15,7 +15,9 @@
       <version>0.2.0.20250106.220332-BETA</version>
       <version>0.2.0.20250110.202113-BETA</version>
       <version>0.2.0.20250130.205401-BETA</version>
+      <version>0.2.1.20250214.162537-BETA</version>
+      <version>0.2.1.20250214.162633-BETA</version>
     </versions>
-    <lastUpdated>20250131025402</lastUpdated>
+    <lastUpdated>20250214222634</lastUpdated>
   </versioning>
 </metadata>
