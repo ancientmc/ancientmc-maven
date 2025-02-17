@@ -3,13 +3,14 @@
   <groupId>com.ancientmc</groupId>
   <artifactId>acp-gradle</artifactId>
   <versioning>
-    <latest>0.2.1.20250217.134818-BETA</latest>
-    <release>0.2.1.20250217.134818-BETA</release>
+    <latest>0.2.1.20250217.140504-BETA</latest>
+    <release>0.2.1.20250217.140504-BETA</release>
     <versions>
       <version>0.2.0.20250130.205401-BETA</version>
       <version>0.2.1.20250214.162633-BETA</version>
       <version>0.2.1.20250217.134818-BETA</version>
+      <version>0.2.1.20250217.140504-BETA</version>
     </versions>
-    <lastUpdated>20250217194821</lastUpdated>
+    <lastUpdated>20250217200507</lastUpdated>
   </versioning>
 </metadata>
