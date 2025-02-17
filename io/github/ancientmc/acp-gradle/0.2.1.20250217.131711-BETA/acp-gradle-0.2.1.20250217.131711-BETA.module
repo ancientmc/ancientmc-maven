@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.ancientmc",
+    "module": "acp-gradle",
+    "version": "0.2.1.20250217.131711-BETA",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "acp-gradle-0.2.1.20250217.131711-BETA.jar",
+          "url": "acp-gradle-0.2.1.20250217.131711-BETA.jar",
+          "size": 50823,
+          "sha512": "edd56b996a0a0d25176a5732d9ff84ea9da2c91ded228bd79131324ef64ecb260a3eb035f1084d09445345db12b200742c50cde3fb303d91f30054f1815722e6",
+          "sha256": "3c78955adc8feadd8e2b6e038db9176043b307a514a97d116f02b69754dd5706",
+          "sha1": "085be027d8d08d7da23defc3c706365e6c48e630",
+          "md5": "23db6a481a593051fdfee5f1cfe31d9e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.18.0"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "srgutils",
+          "version": {
+            "requires": "1.0.9"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.27.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "acp-gradle-0.2.1.20250217.131711-BETA.jar",
+          "url": "acp-gradle-0.2.1.20250217.131711-BETA.jar",
+          "size": 50823,
+          "sha512": "edd56b996a0a0d25176a5732d9ff84ea9da2c91ded228bd79131324ef64ecb260a3eb035f1084d09445345db12b200742c50cde3fb303d91f30054f1815722e6",
+          "sha256": "3c78955adc8feadd8e2b6e038db9176043b307a514a97d116f02b69754dd5706",
+          "sha1": "085be027d8d08d7da23defc3c706365e6c48e630",
+          "md5": "23db6a481a593051fdfee5f1cfe31d9e"
+        }
+      ]
+    }
+  ]
+}
