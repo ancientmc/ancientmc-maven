@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ancientmc</groupId>
+  <artifactId>rosetta</artifactId>
+  <version>0.0.9.0</version>
+  <packaging>pom</packaging>
+  <name>MIT License</name>
+  <description>CLI program to generate and update TSRGv2 deobfuscation mappings between JAR versions.</description>
+  <url>https://mit-license.org/</url>
+  <developers>
+    <developer>
+      <id>moist-mason</id>
+      <name>mason</name>
+    </developer>
+  </developers>
+</project>
