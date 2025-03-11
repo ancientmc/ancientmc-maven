@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ancientmc",
+    "module": "rosetta",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rosetta-0.1.1-base.jar",
+          "url": "rosetta-0.1.1-base.jar",
+          "size": 51202,
+          "sha512": "7728e9591ecccc84300384de9aed828bf77090a0d483d639f3ce85d8e77f1a86c2e66e80c56b276d7a0959a54de872ad57f6fbd369f9e2d0a46b974899b0d70b",
+          "sha256": "f566921e49648cb21500ef7f49cc431fe44de69bbbb73a7c6e18212c2fbc3ac9",
+          "sha1": "209d0c865240e22b01b3ca313740b1d0aaedd6ae",
+          "md5": "1843de85070822c9b4b4a3e9b0e4105c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "srgutils",
+          "version": {
+            "requires": "0.5.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rosetta-0.1.1-base.jar",
+          "url": "rosetta-0.1.1-base.jar",
+          "size": 51202,
+          "sha512": "7728e9591ecccc84300384de9aed828bf77090a0d483d639f3ce85d8e77f1a86c2e66e80c56b276d7a0959a54de872ad57f6fbd369f9e2d0a46b974899b0d70b",
+          "sha256": "f566921e49648cb21500ef7f49cc431fe44de69bbbb73a7c6e18212c2fbc3ac9",
+          "sha1": "209d0c865240e22b01b3ca313740b1d0aaedd6ae",
+          "md5": "1843de85070822c9b4b4a3e9b0e4105c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosetta-0.1.1-all.jar",
+          "url": "rosetta-0.1.1-all.jar",
+          "size": 608816,
+          "sha512": "e0a159d6cc4eb2bade5a082775df84d2407819868aa6208dacdd1a3fab820c7de0e02148c896978f96d85ccaa7299b0d9e4ef7d121eac655c77f0700181b6e59",
+          "sha256": "72b6b5f48fd6c97393f10d453770baf12a852d459cd3ec69e4420db0d8af3704",
+          "sha1": "dec6c6f0091a65125e0f0441e3f73168452a0c17",
+          "md5": "2604424d053a09a0e9908959ae7837cc"
+        }
+      ]
+    }
+  ]
+}
