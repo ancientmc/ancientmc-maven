@@ -3,12 +3,13 @@
   <groupId>com.ancientmc</groupId>
   <artifactId>versions</artifactId>
   <versioning>
-    <latest>c0.0.14a_08</latest>
-    <release>c0.0.14a_08</release>
+    <latest>a1.2.6-legacy</latest>
+    <release>a1.2.6-legacy</release>
     <versions>
       <version>c0.0.13a_03</version>
       <version>c0.0.14a_08</version>
+      <version>a1.2.6-legacy</version>
     </versions>
-    <lastUpdated>20250312171102</lastUpdated>
+    <lastUpdated>20250320000158</lastUpdated>
   </versioning>
 </metadata>
