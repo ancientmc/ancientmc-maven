@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ancientmc",
+    "module": "acp-gradle",
+    "version": "0.3.0.20250323.233620-BETA",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "acp-gradle-0.3.0.20250323.233620-BETA.jar",
+          "url": "acp-gradle-0.3.0.20250323.233620-BETA.jar",
+          "size": 62684,
+          "sha512": "b2a1aeb3b0685e705fd6f252b5452c4de5be1fd47a772ec07499ccec67695d1456f40c0b4d6dfeb3c2a62114031cf51d1a0f2901c3efc7dfb3269c87e2114186",
+          "sha256": "63f55388f6fd96a007a027de92ad74f8ffbcb433a473de75019d6c98e94f6c44",
+          "sha1": "829b7ba00fb61855a2cbc37224fc7684617fafcf",
+          "md5": "9f5fc44d09b717a1125859cfae52b2a7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.18.0"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "srgutils",
+          "version": {
+            "requires": "1.0.9"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.27.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "acp-gradle-0.3.0.20250323.233620-BETA.jar",
+          "url": "acp-gradle-0.3.0.20250323.233620-BETA.jar",
+          "size": 62684,
+          "sha512": "b2a1aeb3b0685e705fd6f252b5452c4de5be1fd47a772ec07499ccec67695d1456f40c0b4d6dfeb3c2a62114031cf51d1a0f2901c3efc7dfb3269c87e2114186",
+          "sha256": "63f55388f6fd96a007a027de92ad74f8ffbcb433a473de75019d6c98e94f6c44",
+          "sha1": "829b7ba00fb61855a2cbc37224fc7684617fafcf",
+          "md5": "9f5fc44d09b717a1125859cfae52b2a7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "acp-gradle-0.3.0.20250323.233620-BETA-sources.jar",
+          "url": "acp-gradle-0.3.0.20250323.233620-BETA-sources.jar",
+          "size": 33492,
+          "sha512": "e49e3d5d4492af55d13e397c57dc48e152d92bf3059aedb41eb94e390a261c5093a44c5ab6f1e93f3e3848a9c86f68bb87d43f10715a4363b17e9b956fbfc279",
+          "sha256": "78d902a0421d349c3ec9dcab08b39c608a937519f5ded1a267523bb379d7ff9b",
+          "sha1": "b2b61f64230965abf748035b2141bbcba8aa300f",
+          "md5": "3f62de4763aa70e466e63201ca5709e7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "acp-gradle-0.3.0.20250323.233620-BETA-javadoc.jar",
+          "url": "acp-gradle-0.3.0.20250323.233620-BETA-javadoc.jar",
+          "size": 204243,
+          "sha512": "3cb3063c33e257f53a936218d9b0b1c485f70b42a13e1fb7e44dc17c9cc4acb6799f99093e4ec6a0a96806830e68fac7e206d27f3415e2424250eabc1858745a",
+          "sha256": "7ba971a4140c5bd4f468292be59ef28176db3989fe19e661c4e817e75a8fc7c0",
+          "sha1": "e4174f8c2beaf4b6306dad92a063671e84a0ba06",
+          "md5": "f118bc74f17081ef6951d712ec7d2e60"
+        }
+      ]
+    }
+  ]
+}
