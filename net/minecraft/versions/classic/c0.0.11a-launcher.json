@@ -11,7 +11,7 @@
       "-Dminecraft.user.uuid=${auth_uuid}"
     ]
   },
-  "id":"c0.0.11a",
+  "id":"c0.0.11a-launcher",
   "downloads":{
     "client":{
       "sha1":"3a799f179b6dcac5f3a46846d687ebbd95856984",
