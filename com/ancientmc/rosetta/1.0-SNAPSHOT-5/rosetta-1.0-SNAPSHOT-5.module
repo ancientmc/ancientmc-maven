@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ancientmc",
+    "module": "rosetta",
+    "version": "1.0-SNAPSHOT-5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rosetta-1.0-SNAPSHOT-5-base.jar",
+          "url": "rosetta-1.0-SNAPSHOT-5-base.jar",
+          "size": 57237,
+          "sha512": "de1b3daa418e29334ea3907e3cd467972ff15223c377d023476bca81b5d6ebe5514d30250e2e9f64d178bad9b0d9e5ad4d3895b03870663ef48d65b31db69bc8",
+          "sha256": "953f086332f0a0bda9a67923f65e39692a6b598d26fe32e660b2a9739b32384c",
+          "sha1": "0eaffe529d030e8138609b5d8f76d4662e4d36c9",
+          "md5": "7466ec0006605f3e97ef0c5efbbbbadb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.32"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.0"
+          }
+        },
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.7.6"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "srgutils",
+          "version": {
+            "requires": "1.0.11"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.25.4"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.25.4"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-slf4j2-impl",
+          "version": {
+            "requires": "2.25.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rosetta-1.0-SNAPSHOT-5-base.jar",
+          "url": "rosetta-1.0-SNAPSHOT-5-base.jar",
+          "size": 57237,
+          "sha512": "de1b3daa418e29334ea3907e3cd467972ff15223c377d023476bca81b5d6ebe5514d30250e2e9f64d178bad9b0d9e5ad4d3895b03870663ef48d65b31db69bc8",
+          "sha256": "953f086332f0a0bda9a67923f65e39692a6b598d26fe32e660b2a9739b32384c",
+          "sha1": "0eaffe529d030e8138609b5d8f76d4662e4d36c9",
+          "md5": "7466ec0006605f3e97ef0c5efbbbbadb"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosetta-1.0-SNAPSHOT-5-all.jar",
+          "url": "rosetta-1.0-SNAPSHOT-5-all.jar",
+          "size": 4354151,
+          "sha512": "0e566495aa79e8c8ea179a59dba0a930335875ca12281884e21b44a8d2a49219247b3355176dbbac23383a912e81b9cd148cd25fd8507f3770d16d7ae4a9dbe1",
+          "sha256": "f609e520eaa340801096d6b2c7e59fdde41c47b0776dd95f5653af9ae4b6d87d",
+          "sha1": "847111ca158537183705e1e1d993ccca19db2b18",
+          "md5": "a4d53907a453c74f27679582263d7487"
+        }
+      ]
+    }
+  ]
+}
