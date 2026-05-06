@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ancientmc",
+    "module": "excavator",
+    "version": "0.1.0-snapshot-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "excavator-0.1.0-snapshot-1.jar",
+          "url": "excavator-0.1.0-snapshot-1.jar",
+          "size": 28630,
+          "sha512": "160927a661c3bc850b45a7c0a30b8b1f2ad395635dfec3d44dffbf1e1992318964f94bac812d4384100b1314dd5fdd6255c4710ed64e2785f328feb3b6ca7aa9",
+          "sha256": "8ff3c319c0fd2fcb925c9e42e1400d21ddf18731c548b1e440280d04d4243d78",
+          "sha1": "5840f70bed5882ac5cb7e5a855fa185e9269d95e",
+          "md5": "fe7a236a55b66766cfc4580f83c0f2b4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.ancientmc",
+          "module": "commons",
+          "version": {
+            "requires": "0.1.0-snapshot-2"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "datafixerupper",
+          "version": {
+            "requires": "9.0.19"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "excavator-0.1.0-snapshot-1.jar",
+          "url": "excavator-0.1.0-snapshot-1.jar",
+          "size": 28630,
+          "sha512": "160927a661c3bc850b45a7c0a30b8b1f2ad395635dfec3d44dffbf1e1992318964f94bac812d4384100b1314dd5fdd6255c4710ed64e2785f328feb3b6ca7aa9",
+          "sha256": "8ff3c319c0fd2fcb925c9e42e1400d21ddf18731c548b1e440280d04d4243d78",
+          "sha1": "5840f70bed5882ac5cb7e5a855fa185e9269d95e",
+          "md5": "fe7a236a55b66766cfc4580f83c0f2b4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "excavator-0.1.0-snapshot-1-sources.jar",
+          "url": "excavator-0.1.0-snapshot-1-sources.jar",
+          "size": 13397,
+          "sha512": "f4ad4466541dde198903155e4ccde7ed4e1702563723f160603cd9e2a0b0b4926ec4197c19ca20e7bf670a483d840deb0ef5b7f38761666d4b22e6efd15f5aff",
+          "sha256": "d5714bd39165f8b59e12eecf09c672625572b151d9437f1794ad21af4e1cda45",
+          "sha1": "c15d66d4bdeeeb36470bde3926619529eec56000",
+          "md5": "3bae3718e068ca5297137aa0e9cd3d0f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "excavator-0.1.0-snapshot-1-javadoc.jar",
+          "url": "excavator-0.1.0-snapshot-1-javadoc.jar",
+          "size": 148766,
+          "sha512": "53d666423bf6414aa1965e45e418ab9d2beafea409508e37242e6d4b95965799e4e4a1ef02ec0e0cca777039905dfdeb7fc92f562da1b1c385662804c7401622",
+          "sha256": "b31b086737ebf19f04a3702a22dbcccc143398341dfb02b9df203b1a58dfc8c7",
+          "sha1": "9dc6e23f32da33c586d61892f7f5d267a16107e5",
+          "md5": "a24919d1ad5332bfb4a116a16f0708f0"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "excavator-0.1.0-snapshot-1-all.jar",
+          "url": "excavator-0.1.0-snapshot-1-all.jar",
+          "size": 30383068,
+          "sha512": "ad7a45aeb6e90893744b9bd89955debe90c6af2727be0ec6f2c60d54226e5988456b924f0995612023998373c86f1793a96abce5f39dc49b54380f59b6836789",
+          "sha256": "7865f369f369971f3442ee3f4243bf2a46dd870de5cb1eccaa88a78bc1bfcc59",
+          "sha1": "d4f7220ec9e809340e6d5da62cb3fffb14d975e2",
+          "md5": "6bef8e05a6d2e9535bb2e08f6a8c12bb"
+        }
+      ]
+    }
+  ]
+}
