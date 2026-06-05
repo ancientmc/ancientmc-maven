@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.moistmason",
+    "module": "archean",
+    "version": "0.1.0-pre-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "archean-0.1.0-pre-1.jar",
+          "url": "archean-0.1.0-pre-1.jar",
+          "size": 52066,
+          "sha512": "5b613ed7ff2fa3925fdd1f502fb4398999dc791e6a88dadb34c43d0ac505459b192732b166cf0a86dfaf4bf9f40b0a69ae5d3900a21ecab0185f7994b25f7a33",
+          "sha256": "5c98b9def8bca4fd1b54a13681cb83e0c93f9dc5989151041074986993f7c475",
+          "sha1": "8e78daa7cfbf21aeec89f476d34ff4fdff8d893e",
+          "md5": "8fd93069841b0b8f6ddb6fa96966a9c6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.28.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.22.0"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "datafixerupper",
+          "version": {
+            "requires": "9.0.19"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.6.0-jre"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "archean-0.1.0-pre-1.jar",
+          "url": "archean-0.1.0-pre-1.jar",
+          "size": 52066,
+          "sha512": "5b613ed7ff2fa3925fdd1f502fb4398999dc791e6a88dadb34c43d0ac505459b192732b166cf0a86dfaf4bf9f40b0a69ae5d3900a21ecab0185f7994b25f7a33",
+          "sha256": "5c98b9def8bca4fd1b54a13681cb83e0c93f9dc5989151041074986993f7c475",
+          "sha1": "8e78daa7cfbf21aeec89f476d34ff4fdff8d893e",
+          "md5": "8fd93069841b0b8f6ddb6fa96966a9c6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "archean-0.1.0-pre-1-sources.jar",
+          "url": "archean-0.1.0-pre-1-sources.jar",
+          "size": 55283,
+          "sha512": "3f5ebd03ffeb3b165f264c3afea354f6f6bf710056a974665b2b53491e03fe89c9b66b0d9db1bae191f8819067cc89e5975fde79586ea9580dc2f8086f69c2b5",
+          "sha256": "b7d909d0fbf857e10217de0df2bb240774ec3322afc2f982db0b891803a5429c",
+          "sha1": "5be02edad8fed6169e85486b834a3fcb915b17f6",
+          "md5": "937008355ff652e8bdedf9f856b6a330"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "archean-0.1.0-pre-1-javadoc.jar",
+          "url": "archean-0.1.0-pre-1-javadoc.jar",
+          "size": 199321,
+          "sha512": "687f951d2f2eca625cbd49a0a394d8abc5c10288d1632fef775181459eff81f9f3f7933410b7bc801b57cb59b863358a5f58fc23bb371a6e97f5ec410dae958d",
+          "sha256": "6c7189e072100e17e7ce75288b6aaed84a964a958750067567403cddbd9436a2",
+          "sha1": "a3dfadfbea0fc6ddb619bd2f52479f3e91723b49",
+          "md5": "0e00010ff31070bf096056f51df8fd57"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "archean-0.1.0-pre-1-all.jar",
+          "url": "archean-0.1.0-pre-1-all.jar",
+          "size": 30375744,
+          "sha512": "e5a2db998250b4c609a5ed87f95aa5300d44f06cbc82e290a3f4cf199d7dc442d14f87965a8fd66614f82f8f0ff718b0931cc115edb031283eee3bfb7e67e5d1",
+          "sha256": "5fc8b080ce0b2fa439ec8f2b976b088816fdc2c105532c72cd937068ffa881c3",
+          "sha1": "2cce571a3bd5d7d46e2d9bde9de1b11600ffd629",
+          "md5": "b39b58b90a2096d5f576dfc1f5592f34"
+        }
+      ]
+    }
+  ]
+}
